@@ -1,2 +1,2 @@
 # Payload-Hardware
-Payload Electrical Schematics and PCB Design via KiCAD
+UCSC Rocketry's Deployed Payload Hardware System
