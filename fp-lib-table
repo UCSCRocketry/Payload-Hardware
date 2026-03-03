@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "Payload-STM32")(type "KiCad")(uri "${KIPRJMOD}/Footprints/WeACT_Black_Pill_V2.0.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints.pretty")(options "")(descr ""))
+  (lib (name "Payload-BMP388")(type "KiCad")(uri "${KIPRJMOD}/Payload-BMP388.pretty")(options "")(descr ""))
 )
