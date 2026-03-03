@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Payload-BMP-388")(type "KiCad")(uri "${KIPRJMOD}/Payload-BMP-388.kicad_sym")(options "")(descr ""))
   (lib (name "Payload-BMP388")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Payload-BMP388.kicad_sym")(options "")(descr ""))
 )
