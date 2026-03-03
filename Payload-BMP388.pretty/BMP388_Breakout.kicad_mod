@@ -1,10 +1,10 @@
-(footprint "Untitled"
+(footprint "BMP388_Breakout"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -9.398 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "54cc10b4-44e8-4d65-b2fe-d28a85532f36")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
-		(at 0 1 0)
+	(property "Value" "BMP388_Breakout"
+		(at 0 9.398 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "af14f257-a574-4e4c-bc10-bfccf8f478e8")
@@ -200,7 +200,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0.254 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "04acadaf-1334-4a79-ae10-f16c0ba50b6e")
@@ -210,6 +210,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -8.26 -5.76)
+		(size 3 3)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b00b515b-70a9-4d23-8e6b-cb78cbf2e662")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.26 -5.76)
+		(size 3 3)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "829d32eb-baa1-413a-a611-140d3e53dcd7")
 	)
 	(pad "1" thru_hole circle
 		(at -8.89 6.096)

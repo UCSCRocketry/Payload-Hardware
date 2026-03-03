@@ -1,4 +1,4 @@
-26653358540085952
+26653359091758137
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BMP388
+BMP388
+
+
+0
+10
+10
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -92519,14 +92526,7 @@ mousebite stamp slot break tab 2mm edge on-edge
 0
 0
 Payload-BMP388
-Untitled
-
-
-0
-8
-8
-Payload-BMP388
-bmp-388
+BMP388_Breakout
 
 
 0
