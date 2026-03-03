@@ -1472,47 +1472,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Motion:LSM9DS1"
+		(symbol "SD Card AV:lsm9ds1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -15.24 21.59 0)
+				(at 4.318 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "LSM9DS1"
-				(at -15.24 19.05 0)
+				(at 14.732 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_LGA:LGA-24L_3x3.5mm_P0.43mm"
-				(at 38.1 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/1639232/0/0/1/LSM9DS1-Datasheet.pdf"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "I2C SPI 9 axis IMU accelerometer gyroscope magnetometer"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1521,7 +1501,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "I2C SPI IMU accelerometer gyroscope magnetometer"
+			(property "Datasheet" "https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout"
+				(at -11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1530,33 +1519,11 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LGA*3x3.5mm*P0.43mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LSM9DS1_0_1"
-				(rectangle
-					(start -15.24 17.78)
-					(end 15.24 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LSM9DS1_1_1"
-				(pin input line
-					(at -17.78 10.16 0)
+			(symbol "lsm9ds1_0_0"
+				(pin power_out line
+					(at 1.27 -8.89 0)
 					(length 2.54)
-					(name "SCL/SPC"
+					(name "3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,265 +1538,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 7.62 0)
-					(length 2.54)
-					(name "SDA/SDI/SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 2.54)
-					(name "CS_A/G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
-					(at -17.78 0 0)
+					(at 1.27 -16.51 0)
 					(length 2.54)
-					(name "SDO_A/G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -2.54 0)
-					(length 2.54)
-					(name "INT1_A/G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -5.08 0)
-					(length 2.54)
-					(name "INT2_A/G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -7.62 0)
-					(length 2.54)
-					(name "DEN_A/G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -12.7 0)
-					(length 2.54)
-					(name "CAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -15.24 0)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 20.32 270)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 20.32 270)
-					(length 2.54)
-					(hide yes)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 20.32 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 20.32 270)
-					(length 2.54)
-					(hide yes)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 10.16 180)
-					(length 2.54)
-					(name "CS_M"
+					(name "SDOAG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1845,27 +1557,9 @@
 					)
 				)
 				(pin output line
-					(at 17.78 7.62 180)
+					(at 1.27 -19.05 0)
 					(length 2.54)
-					(name "SDO_M"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 2.54)
-					(name "DRDY_M"
+					(name "SDOM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1880,10 +1574,64 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 2.54 180)
+				(pin input line
+					(at 1.27 -21.59 0)
 					(length 2.54)
-					(name "INT_M"
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -24.13 0)
+					(length 2.54)
+					(name "CSAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -26.67 0)
+					(length 2.54)
+					(name "CSM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -6.35 180)
+					(length 2.54)
+					(name "DEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1898,10 +1646,28 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 -2.54 180)
+				(pin output line
+					(at 22.86 -8.89 180)
 					(length 2.54)
-					(name "RES"
+					(name "DRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -11.43 180)
+					(length 2.54)
+					(name "INTM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1916,17 +1682,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
+				(pin output line
+					(at 22.86 -13.97 180)
 					(length 2.54)
-					(name "RES"
+					(name "INT2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1934,17 +1700,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 -7.62 180)
+				(pin output line
+					(at 22.86 -16.51 180)
 					(length 2.54)
-					(name "RES"
+					(name "INT1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1952,17 +1718,32 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 -10.16 180)
+			)
+			(symbol "lsm9ds1_0_1"
+				(rectangle
+					(start 3.81 -3.175)
+					(end 20.32 -29.21)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "lsm9ds1_1_0"
+				(pin power_out line
+					(at 1.27 -6.35 0)
 					(length 2.54)
-					(name "RES"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "17"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1970,17 +1751,35 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 -12.7 180)
+				(pin input line
+					(at 1.27 -13.97 0)
 					(length 2.54)
-					(name "RES"
+					(name "SDA/MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -26.67 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1991,6 +1790,36 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Altimeter\nSPI3"
+		(exclude_from_sim no)
+		(at 235.204 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47e4a03b-9056-4163-90fd-7b1ed49836fe")
+	)
+	(text "IMU\nSPI4"
+		(exclude_from_sim no)
+		(at 75.184 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2bef8b5-0aab-4481-805d-89a2c0c5aaf4")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075912f2-0cc0-4d21-9622-bab65052aca2")
 	)
 	(wire
 		(pts
@@ -2011,6 +1840,16 @@
 			(type default)
 		)
 		(uuid "10f7efde-27d6-4156-bc8e-aa96af8a197c")
+	)
+	(wire
+		(pts
+			(xy 222.25 52.07) (xy 227.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1181293d-bf02-4146-b2cb-bb65f6466a67")
 	)
 	(wire
 		(pts
@@ -2044,6 +1883,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 54.61) (xy 227.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26979624-e8ab-4d87-b016-c36bce5d181d")
+	)
+	(wire
+		(pts
 			(xy 163.83 95.25) (xy 167.64 95.25)
 		)
 		(stroke
@@ -2051,6 +1900,16 @@
 			(type default)
 		)
 		(uuid "462cca9c-5ad0-4f44-bb89-49c4a4238efe")
+	)
+	(wire
+		(pts
+			(xy 219.71 113.03) (xy 222.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463d1693-2393-459a-8c55-ad6e0f4a85a1")
 	)
 	(wire
 		(pts
@@ -2071,6 +1930,36 @@
 			(type default)
 		)
 		(uuid "54909ca6-f157-4168-9f47-e0fafd8712a6")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bebd76-5fb8-4ef5-bc9a-33665af3d97a")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781660e8-8f76-4eb4-867c-0a2716bea4f1")
+	)
+	(wire
+		(pts
+			(xy 215.9 107.95) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f8dfe3-69d7-452c-8a6a-7d2c6e07604c")
 	)
 	(wire
 		(pts
@@ -2142,16 +2031,6 @@
 		)
 		(uuid "f02b0761-e3c9-48b4-8172-a1657dcf9a02")
 	)
-	(wire
-		(pts
-			(xy 130.81 80.01) (xy 119.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3ad90d3-2cfc-403c-9684-624759eb92ad")
-	)
 	(label "NSS2"
 		(at 167.64 95.25 0)
 		(effects
@@ -2164,6 +2043,19 @@
 			(justify left bottom)
 		)
 		(uuid "0494310e-8076-411f-8310-27e43280ea9c")
+	)
+	(label "SCK3"
+		(at 215.9 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "074e45f5-9516-4c1f-898c-e408c29e378a")
 	)
 	(label "SCK4"
 		(at 172.72 102.87 0)
@@ -2269,8 +2161,21 @@
 		)
 		(uuid "6820e555-8f86-4282-b44b-ceb257ea2ca4")
 	)
+	(label "MISO2"
+		(at 226.06 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 20 21 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a1fce5e-2998-4b48-a785-ec322569b08e")
+	)
 	(label "MOSI4"
-		(at 119.38 80.01 0)
+		(at 115.57 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,6 +2200,19 @@
 		)
 		(uuid "6de14e04-c05b-4a10-84c9-01090e6685af")
 	)
+	(label "MOSI4"
+		(at 55.88 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 164 74 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7de48734-a56c-48ce-8473-2a758ebde714")
+	)
 	(label "MISO3"
 		(at 182.88 82.55 0)
 		(effects
@@ -2307,6 +2225,19 @@
 			(justify left bottom)
 		)
 		(uuid "8a768fe0-405c-40f9-b661-4beb430bf7c7")
+	)
+	(label "MOSI3"
+		(at 222.25 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "979fa2ce-1d5b-4d51-99b2-d42c2386d5da")
 	)
 	(label "MISO1"
 		(at 115.57 95.25 0)
@@ -2334,6 +2265,45 @@
 		)
 		(uuid "a2841c7d-cff2-49ce-a685-10a2d3cb2efb")
 	)
+	(label "MISO4"
+		(at 59.69 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 164 74 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5610b26-cb31-47e2-af19-400b09793d0a")
+	)
+	(label "MOSI2"
+		(at 227.33 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 20 21 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5c42d34-6a74-4271-aae9-4d2e0c677821")
+	)
+	(label "MISO3"
+		(at 219.71 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdc23fbb-37a9-49f2-8cd1-7be30fad3a7d")
+	)
 	(label "NSS4"
 		(at 171.45 100.33 0)
 		(effects
@@ -2360,9 +2330,35 @@
 		)
 		(uuid "f73a2293-aad3-4fd8-b753-829e7eff86fc")
 	)
+	(label "SCK4"
+		(at 63.5 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 164 74 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9e31a3a-81a0-43c5-8e2e-849775fd07b9")
+	)
+	(label "SCK2"
+		(at 222.25 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 20 21 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff8e0ef4-7398-45c5-9244-458f9ddf3c83")
+	)
 	(symbol
 		(lib_id "BMP388:BMP388")
-		(at 240.03 111.76 0)
+		(at 234.95 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2371,7 +2367,7 @@
 		(fields_autoplaced yes)
 		(uuid "1631cfca-1bdc-48f8-9d59-efbc2a5ae42f")
 		(property "Reference" "U3"
-			(at 240.03 91.44 0)
+			(at 234.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2375,7 @@
 			)
 		)
 		(property "Value" "BMP388"
-			(at 240.03 93.98 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" "BMP388:PQFN50P200X200X80-10N"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2411,7 @@
 			)
 		)
 		(property "MF" "Bosch Sensortec"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2421,7 @@
 			)
 		)
 		(property "Description_1" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute - - 10-WFLGA"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2431,7 @@
 			)
 		)
 		(property "Package" "WFLGA-10 Bosch Tools"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2441,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2451,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BMP388/Bosch/view-part/?ref=eda"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2461,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2471,7 @@
 			)
 		)
 		(property "PARTREV" "1.1"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2481,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP388/Bosch/view-part/?ref=snap"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2491,7 @@
 			)
 		)
 		(property "MP" "BMP388"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2501,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2747857&manufacturer=Bosch Sensortec&part_name=BMP388&search_term=None"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2511,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2521,7 @@
 			)
 		)
 		(property "MANUFACTURER" "BOSCH"
-			(at 240.03 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,6 +2662,110 @@
 			(project ""
 				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SD Card AV:lsm9ds1")
+		(at 62.23 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98672ba2-5ec0-4ba2-b1c9-afb8adabc00a")
+		(property "Reference" "U4"
+			(at 74.295 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LSM9DS1"
+			(at 74.295 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "69f14f3a-7948-498a-93be-1de7e33e59ec")
+		)
+		(pin "2"
+			(uuid "c536f347-d89e-4c1e-b427-5d0fd8bbe11e")
+		)
+		(pin "13"
+			(uuid "05c88984-722b-4205-b14f-21f605955037")
+		)
+		(pin "6"
+			(uuid "b8c0e800-24a4-42f8-bede-97de4d7d41b0")
+		)
+		(pin "9"
+			(uuid "b342f476-5897-4f4c-a122-9b779baa5080")
+		)
+		(pin "12"
+			(uuid "94ed506f-d33e-4c34-9857-365c42c42f0f")
+		)
+		(pin "11"
+			(uuid "1697d37d-8fac-46d2-9f2f-856e4b24f816")
+		)
+		(pin "8"
+			(uuid "c3a10e6a-1201-4881-820e-014b773f0944")
+		)
+		(pin "7"
+			(uuid "616e898d-6a01-4a9d-b397-db6fb86ce0e9")
+		)
+		(pin "10"
+			(uuid "d10bbf96-88e8-46a2-9e1d-67002cb7f7c4")
+		)
+		(pin "1"
+			(uuid "69455b60-9304-4618-bfcd-a7107a1efde1")
+		)
+		(pin "5"
+			(uuid "6b4e5701-b7c9-4108-82e0-f8a27bc5c179")
+		)
+		(pin "3"
+			(uuid "297fcfa7-bcc8-4895-bdef-6c52237158a8")
+		)
+		(pin "4"
+			(uuid "8e690e7f-42d6-4f51-80e8-20e1b40c7414")
+		)
+		(instances
+			(project ""
+				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2850,142 +2950,6 @@
 			(project ""
 				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Motion:LSM9DS1")
-		(at 53.34 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebea7a8b-a1a8-419c-b857-c33984860a25")
-		(property "Reference" "U2"
-			(at 55.4833 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LSM9DS1"
-			(at 55.4833 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_LGA:LGA-24L_3x3.5mm_P0.43mm"
-			(at 91.44 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/1639232/0/0/1/LSM9DS1-Datasheet.pdf"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "I2C SPI 9 axis IMU accelerometer gyroscope magnetometer"
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "4f30193b-cccf-4ed1-bb60-6ae3dcb93ad3")
-		)
-		(pin "12"
-			(uuid "e2cbe615-b403-44c8-9c04-d26b126d78e5")
-		)
-		(pin "9"
-			(uuid "897ce664-5f64-4ce3-9942-a3928ee9284d")
-		)
-		(pin "5"
-			(uuid "76c53c58-75f6-4835-9211-41d7af9fee85")
-		)
-		(pin "1"
-			(uuid "4e213182-c896-4bc0-acc5-65ef9c0c493b")
-		)
-		(pin "7"
-			(uuid "12a9fbbc-1dea-47b4-ab78-3ea0fcc12b2e")
-		)
-		(pin "24"
-			(uuid "98621507-d1c1-4025-8068-bccc33123d6f")
-		)
-		(pin "6"
-			(uuid "72a5de64-511f-4aa3-8490-349e6dc8f4e9")
-		)
-		(pin "4"
-			(uuid "3be279e5-dcee-42ee-a0ad-34f7368adb39")
-		)
-		(pin "11"
-			(uuid "23fd51c7-d8f1-4599-8778-9c7ddd199a51")
-		)
-		(pin "23"
-			(uuid "e00bda8a-084d-4cdd-97bf-d89e508ed725")
-		)
-		(pin "3"
-			(uuid "b5fc0fe2-fd49-41ec-a081-4e18293a9d0b")
-		)
-		(pin "15"
-			(uuid "1836fd9e-f2ee-4e02-be61-ab59a37c66bc")
-		)
-		(pin "17"
-			(uuid "f51e1722-9ec9-42d9-bd74-1739ff53f4db")
-		)
-		(pin "18"
-			(uuid "c7188dbf-f813-4c5e-ba53-0fb51f9be300")
-		)
-		(pin "13"
-			(uuid "5d9b40b7-4afb-4903-83b1-322f9c965fcf")
-		)
-		(pin "19"
-			(uuid "3f23a885-cc10-4cc4-8f0f-2f18f91bc8c1")
-		)
-		(pin "8"
-			(uuid "c48921ec-497f-4a8e-b788-4a14c0f50133")
-		)
-		(pin "2"
-			(uuid "0ec7f4a7-bc53-44b3-9923-4ac1df325b54")
-		)
-		(pin "20"
-			(uuid "8923ea99-dcbd-4519-b986-516bc6068119")
-		)
-		(pin "22"
-			(uuid "2470dd60-3b9c-4ea1-95f7-e7f25ba81ffc")
-		)
-		(pin "16"
-			(uuid "65564c6e-d2af-42fa-ab77-4fb4ad611a93")
-		)
-		(pin "10"
-			(uuid "25e17dae-d03c-441c-be07-ca69fa21a2a5")
-		)
-		(pin "14"
-			(uuid "0ba3674a-7582-4c9a-bf65-24a13caa0ff5")
-		)
-		(instances
-			(project ""
-				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
-					(reference "U2")
 					(unit 1)
 				)
 			)
