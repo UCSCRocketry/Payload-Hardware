@@ -1811,12 +1811,6 @@
 		)
 		(uuid "7a88f4b6-d5eb-4644-a39b-739d49410b90")
 	)
-	(junction
-		(at 48.26 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8642b6b5-9588-4313-8b1a-4570711c96ab")
-	)
 	(wire
 		(pts
 			(xy 148.59 101.6) (xy 156.21 101.6)
@@ -1936,16 +1930,6 @@
 			(type default)
 		)
 		(uuid "95fd5ddf-6f11-4224-81ae-01368a9dbb14")
-	)
-	(wire
-		(pts
-			(xy 48.26 92.71) (xy 48.26 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97bdb4b6-ca7c-42e2-9b0d-b53137699773")
 	)
 	(wire
 		(pts
@@ -2398,7 +2382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP388:BMP388_Breakout"
+		(property "Footprint" "BMP388:PQFN50P200X200X80-10N"
 			(at 219.71 111.76 0)
 			(effects
 				(font
@@ -2815,7 +2799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Avionics_Symbols:STM32F411"
+		(property "Footprint" "WeAct_Black_Pill_V2.0:STM32F411_Black_Pill"
 			(at 128.27 81.28 0)
 			(effects
 				(font

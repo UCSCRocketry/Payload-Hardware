@@ -1,4 +1,4 @@
-26713617659988976
+26743710703773341
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -12,6 +12,111 @@ Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file
 audio belton reverb
 0
 7
+7
+Avionics_Symbols
+0436500205
+
+436500205 
+0
+4
+3
+Avionics_Symbols
+Emi
+
+
+0
+0
+0
+Avionics_Symbols
+KX134
+Sparkfun KX134
+
+0
+13
+9
+Avionics_Symbols
+LSM9DS1
+Adafruit LSM9DS1 Classic/Blue
+
+0
+18
+14
+Avionics_Symbols
+MP2307
+UBEC DC/DC Step-Down (Buck) Converter - 5V @ 3A output
+
+0
+4
+4
+Avionics_Symbols
+MPM3610
+
+
+0
+5
+4
+Avionics_Symbols
+MPM3610QGV-P
+
+MPM3610GQV-P 
+0
+20
+20
+Avionics_Symbols
+MS5611
+GY-63
+
+0
+8
+7
+Avionics_Symbols
+Mermaid-Cat
+
+
+0
+0
+0
+Avionics_Symbols
+Micro_SD
+
+
+0
+11
+9
+Avionics_Symbols
+NeoPixel_Stick_8
+
+
+0
+8
+8
+Avionics_Symbols
+RFM69HCW
+Adafruit RFM69HCW Transceiver Radio Breakout - 433 MHz - RadioFruit
+
+0
+14
+14
+Avionics_Symbols
+RFMxx
+
+
+0
+32
+16
+Avionics_Symbols
+STM32F411
+STM32F411 "BlackPill" Development Board
+
+0
+40
+40
+Avionics_Symbols
+W25Q128
+Adafruit SPI FLASH Breakout W25Q128 - 128 MBit / 16 MByte
+
+0
+9
 7
 Battery
 BatteryClip_Keystone_54_D16-19mm
@@ -92672,6 +92777,13 @@ mousebite stamp slot break tab 2mm edge on-edge
 0
 0
 0
+Payload-STM32
+STM32F411_Black_Pill
+
+
+0
+40
+40
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -97257,6 +97369,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM32_F411RE
+STM32F411_Black_Pill
+
+
+0
+40
+40
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
