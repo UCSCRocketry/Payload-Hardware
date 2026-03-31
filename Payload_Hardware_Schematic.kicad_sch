@@ -5483,8 +5483,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96bccba7-7999-415b-87ce-afe44ee2faf4")
-		(property "Reference" "U2"
-			(at 166.37 118.11 0)
+		(property "Reference" "U5"
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,14 +5492,14 @@
 			)
 		)
 		(property "Value" "MPM3610"
-			(at 166.37 115.57 0)
+			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MPM3610"
+		(property "Footprint" "PowerRegulation:MPM3610"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -5541,7 +5541,7 @@
 		(instances
 			(project "Payload_Hardware_Schematic"
 				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5677,7 +5677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MPM3610"
+		(property "Footprint" "PowerRegulation:MPM3610"
 			(at 134.62 102.87 0)
 			(effects
 				(font
@@ -5734,7 +5734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba2cdd54-bb7f-4979-a765-2f1439c63a73")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 45.212 131.826 0)
 			(effects
 				(font
@@ -5806,7 +5806,7 @@
 		(instances
 			(project "Payload_Hardware_Schematic"
 				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
