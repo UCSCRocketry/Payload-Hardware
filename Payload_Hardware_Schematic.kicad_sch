@@ -513,6 +513,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BMP388_new:BMP388_Breakout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at 10.16 4.1276 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 10.16 1.5876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMP388_Breakout_1_1"
+				(rectangle
+					(start -13.97 9.525)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -6.35 90)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -8.89 -6.35 90)
+					(length 2.54)
+					(name "3Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -6.35 90)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -6.35 90)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2656,7 +2865,7 @@
 				(pin bidirectional line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "DAT1/MOSI"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2664,6 +2873,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2710,7 +2937,7 @@
 				(pin power_in line
 					(at 11.43 -5.08 180)
 					(length 2.54)
-					(name "VSS"
+					(name "3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4357,6 +4584,19 @@
 		(uuid "1b4c0dc6-3dbb-4e8a-82a5-fecf36cf8611")
 	)
 	(label "VIN3"
+		(at 111.76 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2523bf8e-c6a5-4f47-9ce7-31bdf798fc42")
+	)
+	(label "VIN3"
 		(at 171.45 50.8 0)
 		(effects
 			(font
@@ -4577,6 +4817,19 @@
 		)
 		(uuid "519262c5-9066-41f3-ac49-4936738bde84")
 	)
+	(label "SCK3"
+		(at 111.76 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "566d851d-8318-42d2-8a2c-bec7637ae264")
+	)
 	(label "GND2"
 		(at 63.5 138.43 0)
 		(effects
@@ -4679,6 +4932,19 @@
 		)
 		(uuid "7e9c1d86-4638-4646-b2c3-0b609f617b19")
 	)
+	(label "MISO3"
+		(at 111.76 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf271c8-1018-4df5-b537-c42f38068eae")
+	)
 	(label "VIN3"
 		(at 91.44 167.64 180)
 		(effects
@@ -4769,6 +5035,19 @@
 		)
 		(uuid "b3814e48-3a16-48c2-83d9-96554675f396")
 	)
+	(label "GND3"
+		(at 111.76 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9b7dec6-fcb1-4abd-bb0e-28ac8db751e1")
+	)
 	(label "VIN4"
 		(at 29.21 26.67 180)
 		(effects
@@ -4821,6 +5100,19 @@
 		)
 		(uuid "e5a9021f-b9f9-4659-926e-c433502e3fbb")
 	)
+	(label "NSS3"
+		(at 111.76 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "edf77dfa-4d02-40c9-b5d6-d74eff8ae8b5")
+	)
 	(label "MISO4"
 		(at 208.28 67.31 180)
 		(effects
@@ -4833,6 +5125,19 @@
 			(justify right bottom)
 		)
 		(uuid "f27b5a49-7e3f-4f15-bb67-bd4cd0e49049")
+	)
+	(label "MOSI3"
+		(at 111.76 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 23 39 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f320e637-1de7-465e-8365-3b6b4cdffb72")
 	)
 	(label "SCK4"
 		(at 29.21 41.91 180)
@@ -4897,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 129.54 157.48 0)
 			(effects
 				(font
@@ -5321,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -5464,10 +5769,99 @@
 		(pin "7"
 			(uuid "b77fc621-7ff5-41a5-9cd5-b5e8138ec263")
 		)
+		(pin "9"
+			(uuid "bbdc27c8-15a3-448c-888c-cde10573e2a3")
+		)
 		(instances
 			(project "Payload_Hardware_Schematic"
 				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMP388_new:BMP388_Breakout")
+		(at 105.41 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "555c90a0-d738-4588-a23d-9642b7d25177")
+		(property "Reference" "U6"
+			(at 102.5525 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.5525 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP388:BMP388_Breakout"
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b02338b0-0e09-40cc-84b7-ef3a6c21a5ec")
+		)
+		(pin "3"
+			(uuid "5abef67e-81d2-4d72-91e7-7304be75ea23")
+		)
+		(pin "8"
+			(uuid "85c1514c-29c8-4841-b84e-6ca93b1c2346")
+		)
+		(pin "2"
+			(uuid "793f8d28-5c6e-4819-a308-7eacc91b5df4")
+		)
+		(pin "6"
+			(uuid "9089dc04-648a-416d-b5db-60a57fddfb24")
+		)
+		(pin "7"
+			(uuid "3ce4d217-33f8-4b3d-b092-71786dad0343")
+		)
+		(pin "5"
+			(uuid "adc55c03-7e4a-4066-a80d-ffcb7154f2ae")
+		)
+		(pin "4"
+			(uuid "1fbb77cb-2e1e-4cfb-99db-7d778ce7751c")
+		)
+		(instances
+			(project ""
+				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5752,7 +6146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 63.5 135.89 0)
 			(effects
 				(font
@@ -6022,7 +6416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 87.63 101.6 0)
 			(effects
 				(font
