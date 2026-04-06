@@ -2259,6 +2259,10 @@
 		(uuid "0d5da228-18c9-41bb-8c92-ac4fcb9e0e12")
 	)
 	(no_connect
+		(at 34.29 46.99)
+		(uuid "1fcbbd45-e24c-4f07-96ed-230728692dc0")
+	)
+	(no_connect
 		(at 210.82 24.13)
 		(uuid "227f688f-7d7f-4514-be26-1998966b01ef")
 	)
@@ -2307,8 +2311,12 @@
 		(uuid "68dc227f-2158-4657-b88f-ca213d54eeab")
 	)
 	(no_connect
-		(at 219.71 82.55)
-		(uuid "99383176-3f19-48cd-b242-212afac84021")
+		(at 198.12 39.37)
+		(uuid "6b4ce91c-36d7-4c38-b64a-4ec1fc332257")
+	)
+	(no_connect
+		(at 214.63 82.55)
+		(uuid "8dc69547-7548-4900-ab00-51cac739ec65")
 	)
 	(no_connect
 		(at 118.11 73.66)
@@ -2319,6 +2327,10 @@
 		(uuid "a158694d-65e8-4eea-84dd-8c6c14c34626")
 	)
 	(no_connect
+		(at 198.12 57.15)
+		(uuid "aeabcfba-b5da-4b80-ac9f-66d1539b9209")
+	)
+	(no_connect
 		(at 198.12 59.69)
 		(uuid "b2c968cb-98b2-48b5-9e30-4c7c0c9b923e")
 	)
@@ -2327,12 +2339,24 @@
 		(uuid "b737627a-d05e-4271-b4b5-c17b6d7f8f72")
 	)
 	(no_connect
+		(at 198.12 52.07)
+		(uuid "be034ece-6ad6-4510-8605-037d372b34b7")
+	)
+	(no_connect
 		(at 55.88 29.21)
 		(uuid "c4b035fe-cf1c-41aa-8b66-024eb3248992")
 	)
 	(no_connect
 		(at 34.29 29.21)
 		(uuid "c9e7f990-4b95-4490-a358-dad445456fd4")
+	)
+	(no_connect
+		(at 198.12 49.53)
+		(uuid "ca084871-b8b2-4ecb-9203-f6f4642e9e68")
+	)
+	(no_connect
+		(at 198.12 54.61)
+		(uuid "ca1ffe23-3387-4939-bd50-6b0cc98fd234")
 	)
 	(no_connect
 		(at 156.21 74.93)
@@ -2361,6 +2385,10 @@
 	(no_connect
 		(at 218.44 24.13)
 		(uuid "e7056298-30fd-4fd4-b7f5-f8a251379154")
+	)
+	(no_connect
+		(at 100.33 76.2)
+		(uuid "ee27d3b9-e1ba-422c-a62a-7254a2a5d353")
 	)
 	(no_connect
 		(at 231.14 54.61)
@@ -2396,23 +2424,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 172.72 101.6)
+			(xy 173.99 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e68cb14-cc2c-4780-bfa5-df1c634c5af6")
-	)
-	(wire
-		(pts
-			(xy 191.77 57.15) (xy 198.12 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20526029-7cbf-421d-9a91-fb51d293999e")
 	)
 	(wire
 		(pts
@@ -2496,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 52.07) (xy 198.12 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4bb9af-f04c-4c60-8c52-3c0e20281a93")
-	)
-	(wire
-		(pts
 			(xy 231.14 36.83) (xy 236.22 36.83)
 		)
 		(stroke
@@ -2513,16 +2521,6 @@
 			(type default)
 		)
 		(uuid "70a62451-f430-4727-886c-7ab54b17289a")
-	)
-	(wire
-		(pts
-			(xy 191.77 54.61) (xy 198.12 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772e1acc-2eab-4695-a355-056a8f18348c")
 	)
 	(wire
 		(pts
@@ -2596,16 +2594,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 82.55) (xy 214.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b18e4e-7bf7-49b5-af85-43b204bf5f58")
-	)
-	(wire
-		(pts
 			(xy 83.82 31.75) (xy 88.9 31.75)
 		)
 		(stroke
@@ -2613,16 +2601,6 @@
 			(type default)
 		)
 		(uuid "a4c7f09e-a2e5-4118-bde9-beff11c39658")
-	)
-	(wire
-		(pts
-			(xy 191.77 49.53) (xy 198.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7944121-6bd8-4c7a-a497-c083b39c603f")
 	)
 	(wire
 		(pts
@@ -2646,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 104.14) (xy 172.72 104.14)
+			(xy 173.99 91.44) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3144,14 +3122,14 @@
 		(uuid "c31ac82d-657a-464d-8df0-6e42c01da6f6")
 	)
 	(label "GND"
-		(at 214.63 87.63 0)
+		(at 219.71 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify top)
 		)
 		(uuid "c8122c7c-88a6-42c2-8677-2058088eb122")
 	)
@@ -3169,7 +3147,7 @@
 		(uuid "cebe15d9-5026-4ce6-813a-bab6998cf160")
 	)
 	(label "UART_RX"
-		(at 168.91 104.14 180)
+		(at 173.99 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3207,7 +3185,7 @@
 		(uuid "d9d35fe7-636e-4c9a-8c1f-5f926e1b1438")
 	)
 	(label "UART_TX"
-		(at 168.91 101.6 180)
+		(at 173.99 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,76 +3298,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff6b73b5-83d3-4ead-8a01-1ff37174ac18")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 179.07 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e39b935-1b08-44d3-92d0-47f26881a3d1")
-		(property "Reference" "J3"
-			(at 180.34 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 180.34 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abb01bc7-29c3-406b-9f34-32cb1b98087d")
-		)
-		(pin "1"
-			(uuid "a8a85528-9a7e-4d8c-9403-b88f7b2c7151")
-		)
-		(instances
-			(project "Payload_Hardware_Schematic"
-				(path "/f4ead8bb-2437-4e54-a6d9-f5ca11bfd675"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "SD Card AV:Micro_SD_Card")
@@ -3518,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP388:BMP388_Breakout"
+		(property "Footprint" "Payload-BMP388:BMP388_Breakout"
 			(at 151.13 34.29 0)
 			(effects
 				(font
@@ -3606,7 +3514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Microfit-Header:CONN_SD-43650-001_02_MOL"
 			(at 63.5 72.39 0)
 			(effects
 				(font
@@ -3674,7 +3582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerRegulation:MPM3610"
+		(property "Footprint" "PowerRugulators:MPM3610"
 			(at 147.32 69.85 0)
 			(effects
 				(font
@@ -3852,7 +3760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerRegulation:MPM3610"
+		(property "Footprint" "PowerRugulators:MPM3610"
 			(at 109.22 68.58 0)
 			(effects
 				(font
@@ -4086,7 +3994,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 177.8 101.6 0)
+		(at 182.88 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4095,7 +4003,7 @@
 		(fields_autoplaced yes)
 		(uuid "da417795-2a5a-46c0-8c4e-6aa34086570b")
 		(property "Reference" "J2"
-			(at 179.07 101.5999 0)
+			(at 184.15 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4012,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 179.07 104.1399 0)
+			(at 184.15 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,8 +4020,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 101.6 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 101.6 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4039,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 177.8 101.6 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
