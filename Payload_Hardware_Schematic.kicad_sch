@@ -2193,6 +2193,10 @@
 		(uuid "227f688f-7d7f-4514-be26-1998966b01ef")
 	)
 	(no_connect
+		(at 198.12 54.61)
+		(uuid "397cffe5-6aa0-481b-a7e2-e56a9f9e8476")
+	)
+	(no_connect
 		(at 231.14 52.07)
 		(uuid "41c6b0ee-14ab-4235-85da-4a361b452cba")
 	)
@@ -2211,6 +2215,10 @@
 	(no_connect
 		(at 113.03 39.37)
 		(uuid "49725938-38f1-45b1-bb51-8c97d4dba00e")
+	)
+	(no_connect
+		(at 198.12 57.15)
+		(uuid "4d9dc7f9-6aa5-4f80-b05d-5f9150bbda9f")
 	)
 	(no_connect
 		(at 198.12 64.77)
@@ -2239,6 +2247,10 @@
 	(no_connect
 		(at 55.88 36.83)
 		(uuid "a158694d-65e8-4eea-84dd-8c6c14c34626")
+	)
+	(no_connect
+		(at 198.12 52.07)
+		(uuid "a6cd4035-7b06-4e75-a0ae-5a47f55be1d4")
 	)
 	(no_connect
 		(at 198.12 72.39)
@@ -2652,16 +2664,6 @@
 		)
 		(uuid "0e6f0979-5cb3-4144-bd3f-0c76bb29a34d")
 	)
-	(label "MISO1"
-		(at 198.12 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1376c49b-f0e3-4758-b74d-0c483e807c65")
-	)
 	(label "SCK3"
 		(at 250.19 59.69 0)
 		(effects
@@ -2898,16 +2900,6 @@
 			(justify right bottom)
 		)
 		(uuid "6c9b7451-540f-4a60-84f1-ac2b75df70d0")
-	)
-	(label "SCK1"
-		(at 198.12 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ce98cd1-f4ff-417f-93bf-43ec333c7595")
 	)
 	(label "UART_TX"
 		(at 198.12 44.45 180)
@@ -3197,16 +3189,6 @@
 			(justify right bottom)
 		)
 		(uuid "e5a9021f-b9f9-4659-926e-c433502e3fbb")
-	)
-	(label "MOSI1"
-		(at 198.12 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6857da5-7cdc-4029-91c3-b1244ff4eb3c")
 	)
 	(label "NSS3"
 		(at 157.48 30.48 0)
