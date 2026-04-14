@@ -2193,10 +2193,6 @@
 		(uuid "227f688f-7d7f-4514-be26-1998966b01ef")
 	)
 	(no_connect
-		(at 231.14 74.93)
-		(uuid "3bf3e446-3d25-4fda-97ec-6e0ea0b5a54d")
-	)
-	(no_connect
 		(at 231.14 52.07)
 		(uuid "41c6b0ee-14ab-4235-85da-4a361b452cba")
 	)
@@ -2217,10 +2213,6 @@
 		(uuid "49725938-38f1-45b1-bb51-8c97d4dba00e")
 	)
 	(no_connect
-		(at 231.14 72.39)
-		(uuid "51352f20-0267-481f-8058-a8d3316acf89")
-	)
-	(no_connect
 		(at 198.12 64.77)
 		(uuid "526b8658-e8c4-411c-8d8f-6f54746f29a8")
 	)
@@ -2233,16 +2225,8 @@
 		(uuid "53941f3c-dd65-495b-9aac-4a8d1b6945c3")
 	)
 	(no_connect
-		(at 231.14 69.85)
-		(uuid "545d2427-d21c-4995-a6f6-f489640c6c1c")
-	)
-	(no_connect
 		(at 213.36 24.13)
 		(uuid "68dc227f-2158-4657-b88f-ca213d54eeab")
-	)
-	(no_connect
-		(at 198.12 39.37)
-		(uuid "6b4ce91c-36d7-4c38-b64a-4ec1fc332257")
 	)
 	(no_connect
 		(at 214.63 82.55)
@@ -2257,20 +2241,8 @@
 		(uuid "a158694d-65e8-4eea-84dd-8c6c14c34626")
 	)
 	(no_connect
-		(at 198.12 57.15)
-		(uuid "aeabcfba-b5da-4b80-ac9f-66d1539b9209")
-	)
-	(no_connect
-		(at 198.12 59.69)
-		(uuid "b2c968cb-98b2-48b5-9e30-4c7c0c9b923e")
-	)
-	(no_connect
 		(at 198.12 72.39)
 		(uuid "b737627a-d05e-4271-b4b5-c17b6d7f8f72")
-	)
-	(no_connect
-		(at 198.12 52.07)
-		(uuid "be034ece-6ad6-4510-8605-037d372b34b7")
 	)
 	(no_connect
 		(at 55.88 29.21)
@@ -2279,14 +2251,6 @@
 	(no_connect
 		(at 34.29 29.21)
 		(uuid "c9e7f990-4b95-4490-a358-dad445456fd4")
-	)
-	(no_connect
-		(at 198.12 49.53)
-		(uuid "ca084871-b8b2-4ecb-9203-f6f4642e9e68")
-	)
-	(no_connect
-		(at 198.12 54.61)
-		(uuid "ca1ffe23-3387-4939-bd50-6b0cc98fd234")
 	)
 	(no_connect
 		(at 156.21 74.93)
@@ -2299,10 +2263,6 @@
 	(no_connect
 		(at 157.48 27.94)
 		(uuid "ddf60b0b-1ba0-45ed-bcc3-1446d6540975")
-	)
-	(no_connect
-		(at 231.14 46.99)
-		(uuid "e03edfdd-1dce-42be-8e35-51906e098a5c")
 	)
 	(no_connect
 		(at 231.14 49.53)
@@ -2319,14 +2279,6 @@
 	(no_connect
 		(at 231.14 54.61)
 		(uuid "f2a3ce8f-3330-451c-a889-bcce171e5ab2")
-	)
-	(no_connect
-		(at 231.14 39.37)
-		(uuid "f2d1a936-8f3a-4b51-9e02-d249dff89761")
-	)
-	(no_connect
-		(at 198.12 62.23)
-		(uuid "f7d4f18d-0027-4a74-861d-621c12f07a76")
 	)
 	(wire
 		(pts
@@ -2700,6 +2652,16 @@
 		)
 		(uuid "0e6f0979-5cb3-4144-bd3f-0c76bb29a34d")
 	)
+	(label "MISO1"
+		(at 198.12 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1376c49b-f0e3-4758-b74d-0c483e807c65")
+	)
 	(label "SCK3"
 		(at 250.19 59.69 0)
 		(effects
@@ -2725,6 +2687,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b48132b-b604-46d9-8a16-a7cc3c5648cc")
+	)
+	(label "CSIMU"
+		(at 231.14 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d2971bc-e5ef-4eec-b8f0-a81c923cf44e")
 	)
 	(label "7.2V"
 		(at 160.02 77.47 0)
@@ -2765,6 +2737,16 @@
 		)
 		(uuid "341603ba-fcb7-465d-8f47-63248c3a7a4b")
 	)
+	(label "TIM1"
+		(at 198.12 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36d684f7-3d0f-4713-837b-1195ba1d1f51")
+	)
 	(label "MOSI2"
 		(at 83.82 41.91 180)
 		(effects
@@ -2778,7 +2760,7 @@
 		)
 		(uuid "374147bf-c9d2-4b46-a3ef-7835b969d9c0")
 	)
-	(label "NSS3"
+	(label "FDBK1"
 		(at 250.19 31.75 0)
 		(effects
 			(font
@@ -2804,7 +2786,7 @@
 		)
 		(uuid "40a9777e-1c5b-43d6-9d88-45127221497e")
 	)
-	(label "CSIMU"
+	(label "FDBK"
 		(at 242.57 34.29 0)
 		(effects
 			(font
@@ -2894,6 +2876,16 @@
 		)
 		(uuid "65f44bac-f07c-49a1-a249-1b786840efed")
 	)
+	(label "NSS3"
+		(at 231.14 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "663ccaee-8959-464a-9fb8-70d3de3cd6bd")
+	)
 	(label "3.3V"
 		(at 88.9 31.75 180)
 		(effects
@@ -2906,6 +2898,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c9b7451-540f-4a60-84f1-ac2b75df70d0")
+	)
+	(label "SCK1"
+		(at 198.12 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ce98cd1-f4ff-417f-93bf-43ec333c7595")
 	)
 	(label "UART_TX"
 		(at 198.12 44.45 180)
@@ -2933,6 +2935,16 @@
 		)
 		(uuid "772faec5-9aa4-4e28-b71e-7773c1066160")
 	)
+	(label "RCC_OSC32_IN"
+		(at 231.14 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dafc363-239c-4c54-9ce4-e034c75c5ece")
+	)
 	(label "MISO3"
 		(at 157.48 35.56 0)
 		(effects
@@ -2945,6 +2957,16 @@
 			(justify left bottom)
 		)
 		(uuid "8cf271c8-1018-4df5-b537-c42f38068eae")
+	)
+	(label "RCC_OSC32_OUT"
+		(at 231.14 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b389d8-591d-4c1b-91a4-611345ca1607")
 	)
 	(label "SCK2"
 		(at 83.82 36.83 180)
@@ -2997,6 +3019,16 @@
 		)
 		(uuid "aca1ecb4-4f70-4dfa-b75c-5892e9f66775")
 	)
+	(label "NSS1"
+		(at 198.12 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b26f3a60-045f-4e00-99e3-5fefbdcb2bd7")
+	)
 	(label "MISO2"
 		(at 236.22 64.77 0)
 		(effects
@@ -3035,6 +3067,16 @@
 		)
 		(uuid "c044204b-2577-414b-82c4-0f38897b8050")
 	)
+	(label "TIM2"
+		(at 198.12 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1bbb90c-3f0d-455f-94da-1bba5eb03c4c")
+	)
 	(label "GND"
 		(at 140.97 74.93 180)
 		(effects
@@ -3058,6 +3100,16 @@
 			(justify top)
 		)
 		(uuid "c8122c7c-88a6-42c2-8677-2058088eb122")
+	)
+	(label "LED"
+		(at 231.14 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8373ad7-afdd-41a7-8dbb-145c1c7703b3")
 	)
 	(label "7.2V"
 		(at 58.42 72.39 180)
@@ -3084,6 +3136,16 @@
 			(justify right bottom)
 		)
 		(uuid "cfd3107a-06e4-4545-a81a-8ae57d337937")
+	)
+	(label "BTN"
+		(at 198.12 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfe96759-89e1-4192-bea3-ac24f9f06dcf")
 	)
 	(label "MOSI4"
 		(at 186.69 41.91 180)
@@ -3135,6 +3197,16 @@
 			(justify right bottom)
 		)
 		(uuid "e5a9021f-b9f9-4659-926e-c433502e3fbb")
+	)
+	(label "MOSI1"
+		(at 198.12 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6857da5-7cdc-4029-91c3-b1244ff4eb3c")
 	)
 	(label "NSS3"
 		(at 157.48 30.48 0)
