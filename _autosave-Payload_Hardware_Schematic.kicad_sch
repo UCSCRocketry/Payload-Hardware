@@ -2574,10 +2574,6 @@
 		(uuid "45f315ac-6131-461d-a650-7c6416f92c0c")
 	)
 	(no_connect
-		(at 100.33 76.2)
-		(uuid "48f85dc8-393d-48d2-ab2f-24dbeb63cdf9")
-	)
-	(no_connect
 		(at 113.03 39.37)
 		(uuid "49725938-38f1-45b1-bb51-8c97d4dba00e")
 	)
@@ -4284,7 +4280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -4358,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 135.89 95.25 0)
 			(effects
 				(font
@@ -4621,7 +4617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 116.84 95.25 0)
 			(effects
 				(font
